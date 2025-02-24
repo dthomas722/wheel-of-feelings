@@ -55,7 +55,13 @@ function createSegment(feeling: Feeling, level: number, startAngle: number, endA
   const textRadius = innerRadius + (outerRadius - innerRadius) / 2;
   const textX = 50 + textRadius * Math.cos(midRad);
   const textY = 50 + textRadius * Math.sin(midRad);
-  const textRotation = (startAngle + anglePerSegment / 2);
+  
+  // Calculate text rotation to ensure it's never upside down
+  let textRotation = (startAngle + anglePerSegment / 2);
+  // Adjust rotation for text in the bottom half of the wheel
+  if (textRotation > 90 && textRotation <= 270) {
+    textRotation += 180;
+  }
 
   return (
     <g key={`${level}-${index}`}>
