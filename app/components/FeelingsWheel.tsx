@@ -1,7 +1,5 @@
 import { JSX } from "react";
-
 import { type Feeling, emotions } from '../data/emotions';
-
 
 function createSegments(feelings: Feeling[], level: number, startAngle: number = 0, endAngle: number = 360): JSX.Element[] {
   if (level === 0) {
@@ -56,9 +54,7 @@ function createSegment(feeling: Feeling, level: number, startAngle: number, endA
   const textX = 50 + textRadius * Math.cos(midRad);
   const textY = 50 + textRadius * Math.sin(midRad);
   
-  // Calculate text rotation to ensure it's never upside down
   let textRotation = (startAngle + anglePerSegment / 2);
-  // Adjust rotation for text in the bottom half of the wheel
   if (textRotation > 90 && textRotation <= 270) {
     textRotation += 180;
   }
@@ -69,7 +65,7 @@ function createSegment(feeling: Feeling, level: number, startAngle: number, endA
         d={path}
         fill={feeling.color}
         stroke="white"
-        strokeWidth="0.5"
+        strokeWidth="0.2"
         className="transition-all duration-200 hover:opacity-80 cursor-pointer"
       />
       <text

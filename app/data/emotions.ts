@@ -11,50 +11,50 @@ export const emotions: Feeling[] = [
     children: [
       { 
         name: "Playful", 
-        color: "#FFE57F",
+        color: "#E6C85D",
         children: [
-          { name: "Aroused", color: "#FFE890" },
-          { name: "Cheeky", color: "#FFEBA1" }
+          { name: "Aroused", color: "#CFB454" },
+          { name: "Cheeky", color: "#CFB454" }
         ]
       },
       { 
         name: "Content", 
-        color: "#FFE998",
+        color: "#E6C85D",
         children: [
-          { name: "Free", color: "#FFECA9" },
-          { name: "Joyful", color: "#FFEFBA" }
+          { name: "Free", color: "#CFB454" },
+          { name: "Joyful", color: "#CFB454" }
         ]
       },
       { 
         name: "Interested", 
-        color: "#FFECB0",
+        color: "#E6C85D",
         children: [
-          { name: "Curious", color: "#FFEFBF" },
-          { name: "Inquisitive", color: "#FFF2CF" }
+          { name: "Curious", color: "#CFB454" },
+          { name: "Inquisitive", color: "#CFB454" }
         ]
       },
       { 
         name: "Proud", 
-        color: "#FFF0C8",
+        color: "#E6C85D",
         children: [
-          { name: "Successful", color: "#FFF3D6" },
-          { name: "Confident", color: "#FFF6E3" }
+          { name: "Successful", color: "#CFB454" },
+          { name: "Confident", color: "#CFB454" }
         ]
       },
       { 
         name: "Accepted", 
-        color: "#FFF3E0",
+        color: "#E6C85D",
         children: [
-          { name: "Respected", color: "#FFF6EA" },
-          { name: "Valued", color: "#FFF9F4" }
+          { name: "Respected", color: "#CFB454" },
+          { name: "Valued", color: "#CFB454" }
         ]
       },
       { 
         name: "Powerful", 
-        color: "#FFF7F7",
+        color: "#E6C85D",
         children: [
-          { name: "Courageous", color: "#FFFAFA" },
-          { name: "Creative", color: "#FFFCFC" }
+          { name: "Courageous", color: "#CFB454" },
+          { name: "Creative", color: "#CFB454" }
         ]
       }
     ]
@@ -65,34 +65,34 @@ export const emotions: Feeling[] = [
     children: [
       { 
         name: "Startled", 
-        color: "#B2DD7F",
+        color: "#91C05D",
         children: [
-          { name: "Shocked", color: "#BFDF8F" },
-          { name: "Dismayed", color: "#CCE19F" }
+          { name: "Shocked", color: "#82AD54" },
+          { name: "Dismayed", color: "#82AD54" }
         ]
       },
       { 
         name: "Confused", 
-        color: "#C3E498",
+        color: "#91C05D",
         children: [
-          { name: "Disillusioned", color: "#CFE6A6" },
-          { name: "Perplexed", color: "#DBE8B4" }
+          { name: "Disillusioned", color: "#82AD54" },
+          { name: "Perplexed", color: "#82AD54" }
         ]
       },
       { 
         name: "Amazed", 
-        color: "#D4ECB0",
+        color: "#91C05D",
         children: [
-          { name: "Astonished", color: "#DDEEBB" },
-          { name: "Awe", color: "#E6F0C6" }
+          { name: "Astonished", color: "#82AD54" },
+          { name: "Awe", color: "#82AD54" }
         ]
       },
       { 
         name: "Excited", 
-        color: "#E5F3C8",
+        color: "#91C05D",
         children: [
-          { name: "Eager", color: "#EBF5D1" },
-          { name: "Energetic", color: "#F1F7DA" }
+          { name: "Eager", color: "#82AD54" },
+          { name: "Energetic", color: "#82AD54" }
         ]
       }
     ]
@@ -103,34 +103,34 @@ export const emotions: Feeling[] = [
     children: [
       { 
         name: "Bored", 
-        color: "#8AD2EF",
+        color: "#66B3D4",
         children: [
-          { name: "Indifferent", color: "#9CD7F1" },
-          { name: "Apathetic", color: "#ADDCF3" }
+          { name: "Indifferent", color: "#5CA1BF" },
+          { name: "Apathetic", color: "#5CA1BF" }
         ]
       },
       { 
         name: "Busy", 
-        color: "#A3DDF2",
+        color: "#66B3D4",
         children: [
-          { name: "Pressured", color: "#B2E1F4" },
-          { name: "Rushed", color: "#C1E5F6" }
+          { name: "Pressured", color: "#5CA1BF" },
+          { name: "Rushed", color: "#5CA1BF" }
         ]
       },
       { 
         name: "Stressed", 
-        color: "#BCE7F5",
+        color: "#66B3D4",
         children: [
-          { name: "Overwhelmed", color: "#C8EAF6" },
-          { name: "Out of control", color: "#D4EDF7" }
+          { name: "Overwhelmed", color: "#5CA1BF" },
+          { name: "Out of control", color: "#5CA1BF" }
         ]
       },
       { 
         name: "Tired", 
-        color: "#D5F2F8",
+        color: "#66B3D4",
         children: [
-          { name: "Sleepy", color: "#DDF4F9" },
-          { name: "Unfocused", color: "#E5F6FA" }
+          { name: "Sleepy", color: "#5CA1BF" },
+          { name: "Unfocused", color: "#5CA1BF" }
         ]
       }
     ]
@@ -141,50 +141,50 @@ export const emotions: Feeling[] = [
     children: [
       { 
         name: "Lonely", 
-        color: "#A9CCE3",
+        color: "#549CCB",
         children: [
-          { name: "Isolated", color: "#D4E6F1" },
-          { name: "Abandoned", color: "#EBF5FB" }
+          { name: "Isolated", color: "#4C8CB7" },
+          { name: "Abandoned", color: "#4C8CB7" }
         ]
       },
       { 
         name: "Vulnerable", 
-        color: "#85C1E9",
+        color: "#549CCB",
         children: [
-          { name: "Victimized", color: "#AED6F1" },
-          { name: "Fragile", color: "#D6EAF8" }
+          { name: "Victimized", color: "#4C8CB7" },
+          { name: "Fragile", color: "#4C8CB7" }
         ]
       },
       { 
         name: "Despair", 
-        color: "#5499C7",
+        color: "#549CCB",
         children: [
-          { name: "Grief", color: "#7FB3D5" },
-          { name: "Powerless", color: "#A9CCE3" }
+          { name: "Grief", color: "#4C8CB7" },
+          { name: "Powerless", color: "#4C8CB7" }
         ]
       },
       { 
         name: "Guilty", 
-        color: "#2980B9",
+        color: "#549CCB",
         children: [
-          { name: "Ashamed", color: "#5499C7" },
-          { name: "Remorseful", color: "#7FB3D5" }
+          { name: "Ashamed", color: "#4C8CB7" },
+          { name: "Remorseful", color: "#4C8CB7" }
         ]
       },
       { 
         name: "Depressed", 
-        color: "#2471A3",
+        color: "#549CCB",
         children: [
-          { name: "Inferior", color: "#5499C7" },
-          { name: "Empty", color: "#7FB3D5" }
+          { name: "Inferior", color: "#4C8CB7" },
+          { name: "Empty", color: "#4C8CB7" }
         ]
       },
       { 
         name: "Hurt", 
-        color: "#1F618D",
+        color: "#549CCB",
         children: [
-          { name: "Disappointed", color: "#5499C7" },
-          { name: "Embarrassed", color: "#7FB3D5" }
+          { name: "Disappointed", color: "#4C8CB7" },
+          { name: "Embarrassed", color: "#4C8CB7" }
         ]
       }
     ]
@@ -195,42 +195,42 @@ export const emotions: Feeling[] = [
     children: [
       { 
         name: "Scared", 
-        color: "#918DC7",
+        color: "#706BA7",
         children: [
-          { name: "Helpless", color: "#9E9BCE" },
-          { name: "Frightened", color: "#ABA9D5" }
+          { name: "Helpless", color: "#656096" },
+          { name: "Frightened", color: "#656096" }
         ]
       },
       { 
         name: "Anxious", 
-        color: "#A6A3D4",
+        color: "#706BA7",
         children: [
-          { name: "Overwhelmed", color: "#B1AFD9" },
-          { name: "Worried", color: "#BCBBDE" }
+          { name: "Overwhelmed", color: "#656096" },
+          { name: "Worried", color: "#656096" }
         ]
       },
       { 
         name: "Insecure", 
-        color: "#BBB9E2",
+        color: "#706BA7",
         children: [
-          { name: "Inadequate", color: "#C4C2E5" },
-          { name: "Inferior", color: "#CDCBE8" }
+          { name: "Inadequate", color: "#656096" },
+          { name: "Inferior", color: "#656096" }
         ]
       },
       { 
         name: "Weak", 
-        color: "#D0CFEF",
+        color: "#706BA7",
         children: [
-          { name: "Worthless", color: "#D7D6F1" },
-          { name: "Insignificant", color: "#DEDDF3" }
+          { name: "Worthless", color: "#656096" },
+          { name: "Insignificant", color: "#656096" }
         ]
       },
       { 
         name: "Rejected", 
-        color: "#E5E5FC",
+        color: "#706BA7",
         children: [
-          { name: "Excluded", color: "#EBEBFD" },
-          { name: "Persecuted", color: "#F1F1FE" }
+          { name: "Excluded", color: "#656096" },
+          { name: "Persecuted", color: "#656096" }
         ]
       }
     ]
@@ -241,42 +241,42 @@ export const emotions: Feeling[] = [
     children: [
       { 
         name: "Let down", 
-        color: "#EB918A",
+        color: "#CF7068",
         children: [
-          { name: "Betrayed", color: "#ED9D97" },
-          { name: "Resentful", color: "#EFA9A4" }
+          { name: "Betrayed", color: "#BA655E" },
+          { name: "Resentful", color: "#BA655E" }
         ]
       },
       { 
         name: "Humiliated", 
-        color: "#EFA6A0",
+        color: "#CF7068",
         children: [
-          { name: "Disrespected", color: "#F1B1AC" },
-          { name: "Ridiculed", color: "#F3BCB8" }
+          { name: "Disrespected", color: "#BA655E" },
+          { name: "Ridiculed", color: "#BA655E" }
         ]
       },
       { 
         name: "Bitter", 
-        color: "#F3BBB7",
+        color: "#CF7068",
         children: [
-          { name: "Indignant", color: "#F5C4C1" },
-          { name: "Violated", color: "#F7CDCB" }
+          { name: "Indignant", color: "#BA655E" },
+          { name: "Violated", color: "#BA655E" }
         ]
       },
       { 
         name: "Mad", 
-        color: "#F7D0CD",
+        color: "#CF7068",
         children: [
-          { name: "Furious", color: "#F9D8D5" },
-          { name: "Jealous", color: "#FBE0DD" }
+          { name: "Furious", color: "#BA655E" },
+          { name: "Jealous", color: "#BA655E" }
         ]
       },
       { 
         name: "Aggressive", 
-        color: "#FBE5E4",
+        color: "#CF7068",
         children: [
-          { name: "Provoked", color: "#FCEBEA" },
-          { name: "Hostile", color: "#FDF1F0" }
+          { name: "Provoked", color: "#BA655E" },
+          { name: "Hostile", color: "#BA655E" }
         ]
       }
     ]
@@ -287,34 +287,34 @@ export const emotions: Feeling[] = [
     children: [
       { 
         name: "Disapproving", 
-        color: "#FFB266",
+        color: "#E68F3A",
         children: [
-          { name: "Judgmental", color: "#FFBB7A" },
-          { name: "Embarrassed", color: "#FFC48E" }
+          { name: "Judgmental", color: "#CF8134" },
+          { name: "Embarrassed", color: "#CF8134" }
         ]
       },
       { 
         name: "Disappointed", 
-        color: "#FFC68C",
+        color: "#E68F3A",
         children: [
-          { name: "Appalled", color: "#FFCD99" },
-          { name: "Revolted", color: "#FFD4A6" }
+          { name: "Appalled", color: "#CF8134" },
+          { name: "Revolted", color: "#CF8134" }
         ]
       },
       { 
         name: "Awful", 
-        color: "#FFD9B3",
+        color: "#E68F3A",
         children: [
-          { name: "Nauseated", color: "#FFDEBE" },
-          { name: "Detestable", color: "#FFE3C9" }
+          { name: "Nauseated", color: "#CF8134" },
+          { name: "Detestable", color: "#CF8134" }
         ]
       },
       { 
         name: "Repelled", 
-        color: "#FFEDD9",
+        color: "#E68F3A",
         children: [
-          { name: "Horrified", color: "#FFF0E0" },
-          { name: "Hesitant", color: "#FFF3E7" }
+          { name: "Horrified", color: "#CF8134" },
+          { name: "Hesitant", color: "#CF8134" }
         ]
       }
     ]
