@@ -136,6 +136,60 @@ export const emotions: Feeling[] = [
     ]
   },
   { 
+    name: "Sad", 
+    color: "#5DADE2",
+    children: [
+      { 
+        name: "Lonely", 
+        color: "#A9CCE3",
+        children: [
+          { name: "Isolated", color: "#D4E6F1" },
+          { name: "Abandoned", color: "#EBF5FB" }
+        ]
+      },
+      { 
+        name: "Vulnerable", 
+        color: "#85C1E9",
+        children: [
+          { name: "Victimized", color: "#AED6F1" },
+          { name: "Fragile", color: "#D6EAF8" }
+        ]
+      },
+      { 
+        name: "Despair", 
+        color: "#5499C7",
+        children: [
+          { name: "Grief", color: "#7FB3D5" },
+          { name: "Powerless", color: "#A9CCE3" }
+        ]
+      },
+      { 
+        name: "Guilty", 
+        color: "#2980B9",
+        children: [
+          { name: "Ashamed", color: "#5499C7" },
+          { name: "Remorseful", color: "#7FB3D5" }
+        ]
+      },
+      { 
+        name: "Depressed", 
+        color: "#2471A3",
+        children: [
+          { name: "Inferior", color: "#5499C7" },
+          { name: "Empty", color: "#7FB3D5" }
+        ]
+      },
+      { 
+        name: "Hurt", 
+        color: "#1F618D",
+        children: [
+          { name: "Disappointed", color: "#5499C7" },
+          { name: "Embarrassed", color: "#7FB3D5" }
+        ]
+      }
+    ]
+  },
+  { 
     name: "Fearful", 
     color: "#7C77B9",
     children: [
@@ -265,4 +319,4 @@ export const emotions: Feeling[] = [
       }
     ]
   }
-]; 
+];
